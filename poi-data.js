@@ -5,7 +5,7 @@ const poiData = [
         category: "Village Entry",
         description: "The exact Ichon entry point from the shared Google Earth coordinates.",
         coords: [10.111483, 124.897136],
-        imageUrl: "start.jpg",
+        imageUrl: "image/start.jpg",
     },
     {
         id: "House1",
