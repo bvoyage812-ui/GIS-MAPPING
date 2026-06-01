@@ -5,35 +5,18 @@ const poiData = [
         category: "Village Entry",
         description: "The exact Ichon entry point from the shared Google Earth coordinates.",
         coords: [10.111483, 124.897136],
-       imageUrl: "images/694820861_2008243233235402_140632760443991009_n.jpg"
+        imageUrl: "start.jpg",
     },
     {
         id: "House1",
         title: "House1",
         category: "Residence",
         description:
-            "One of the local homes near the village center.",
+            "One of the local homes nearR the village center.",
         coords: [10.111331, 124.897222],
-        imageUrl: "https://via.placeholder.com/240x120?text=House1",
+        imageUrl: "house1.jpg",
     },
-    {
-        id: "House2",
-        title: "House2",
-        category: "Residence",
-        description:
-            "A residential marker along the main coastal street.",
-        coords: [10.111247, 124.897642],
-        imageUrl: "https://via.placeholder.com/240x120?text=House2",
-    },
-    {
-        id: "House3",
-        title: "House3",
-        category: "Residence",
-        description:
-            "A residential marker near the northern section.",
-        coords: [10.111250, 124.897881],
-        imageUrl: "https://via.placeholder.com/240x120?text=House3",
-    },
+    
     {
         id: "House4",
         title: "House4",
@@ -43,24 +26,7 @@ const poiData = [
         coords: [10.111075, 124.897647],
         imageUrl: "https://via.placeholder.com/240x120?text=House4",
     },
-    {
-        id: "House5",
-        title: "House5",
-        category: "Residence",
-        description:
-            "A residential marker near the southern part of Ichon.",
-        coords: [10.111250, 124.897881],
-        imageUrl: "https://via.placeholder.com/240x120?text=House5",
-    },
-    {
-        id: "House6",
-        title: "House6",
-        category: "Residence",
-        description:
-            "A small local bakery near the main road.",
-        coords: [10.111186, 124.898039],
-        imageUrl: "https://via.placeholder.com/240x120?text=House6",
-    },
+    
     {
         id: "Cellular Tower",
         title: "Cellular Tower",
@@ -68,7 +34,7 @@ const poiData = [
         description:
             "Village communications site near the northern section.",
         coords: [10.111122, 124.898147],
-        imageUrl: "images/701087423_1769860357729015_9010463153401448047_n.jpg",
+        imageUrl: "701087423_1769860357729015_9010463153401448047_n.jpg",
     },
     {
         id: "House7",
@@ -77,7 +43,7 @@ const poiData = [
         description:
             "A residential marker near the southeastern part of Ichon.",
         coords: [10.110983, 124.897800],
-        imageUrl: "images/701118838_3261472054034776_3413548534516608352_n.jpg",
+        imageUrl: "701118838_3261472054034776_3413548534516608352_n.jpg",
     },
     {
         id: "House8",
@@ -86,7 +52,7 @@ const poiData = [
         description:
             "A residential marker near the southwestern part of Ichon.",
         coords: [10.110933, 124.897931],
-        imageUrl: "images/700927155_1053828797604511_4883455734854628383_n.jpg",
+        imageUrl: "700927155_1053828797604511_4883455734854628383_n.jpg",
     },{
         id: "PurokCandelaria",
         title: "Purok Candelaria Street",
@@ -94,7 +60,7 @@ const poiData = [
         description:
             "A street marker near the southwestern part of Ichon.",
         coords: [10.110672, 124.898356],
-        imageUrl: "images/700722554_1700847344390966_5053914124522346500_n.jpg",
+        imageUrl: "700722554_1700847344390966_5053914124522346500_n.jpg",
     },
     {
         id: "House9",
@@ -106,33 +72,6 @@ const poiData = [
         imageUrl: "https://via.placeholder.com/240x120?text=House9",
     },
     {
-        id: "House10",
-        title: "House10",
-        category: "Residence",
-        description:
-            "A residential marker near the northeastern part of Ichon.",
-        coords: [10.110406, 124.898117],
-        imageUrl: "https://via.placeholder.com/240x120?text=House10",
-    },
-    {
-        id: "House11",
-        title: "House11",
-        category: "Residence",
-        description:
-            "A residential marker near the northeastern part of Ichon.",
-        coords: [10.110267, 124.898231],
-        imageUrl: "https://via.placeholder.com/240x120?text=House11",
-    },
-    {
-        id: "House12",
-        title: "House12",
-        category: "Residence",
-        description:
-            "A residential marker near the southeastern part of Ichon.",
-        coords: [10.110403, 124.898317],
-        imageUrl: "https://via.placeholder.com/240x120?text=House12",
-    },
-    {
         id: "House13",
         title: "House13",
         category: "Residence",
@@ -141,24 +80,7 @@ const poiData = [
         coords: [10.110489, 124.898489],
         imageUrl: "https://via.placeholder.com/240x120?text=House13",
     },
-    {
-        id: "House14",
-        title: "House14",
-        category: "Residence",
-        description:
-            "A residential marker near the southeastern part of Ichon.",
-        coords: [10.110403, 124.898317],
-        imageUrl: "https://via.placeholder.com/240x120?text=House14",
-    },
-    {
-        id: "House15",
-        title: "House15",
-        category: "Residence",
-        description:
-            "A residential marker near the southeastern part of Ichon.",
-        coords: [10.110183, 124.898336],
-        imageUrl: "https://via.placeholder.com/240x120?text=House15",
-    },
+
     {
         id: "House16",
         title: "House16",
@@ -274,7 +196,7 @@ const poiData = [
         description:
             "A fast food marker near the local road bend.",
         coords: [10.109675, 124.899636],
-        imageUrl: "https://via.placeholder.com/240x120?text=Crispy+King",
+        imageUrl: "kk.png",
     },
     {
         id: "House28",
@@ -286,49 +208,13 @@ const poiData = [
         imageUrl: "https://via.placeholder.com/240x120?text=House28",
     },
     {
-        id: "Copra Buyer",
-        title: "Copra Buyer",
-        category: "Commercial",
-        description:
-            "A commercial marker for a local copra buyer.",
-        coords: [10.110206, 124.899339],
-        imageUrl: "https://via.placeholder.com/240x120?text=Copra+Buyer",
-    },
-    {
-        id: "Dion's Motorparts",
-        title: "Dion's Motorparts",
-        category: "Commercial",
-        description:
-            "A commercial marker for a local motor parts store.",
-        coords: [10.110081, 124.899494],
-        imageUrl: "https://via.placeholder.com/240x120?text=Dions+Motorparts",
-    },
-    {
-        id: "Chooks to go",
-        title: "Chooks to go",
-        category: "Grilled Chicken",
-        description:
-            "A grilled chicken marker near a small side lane.",
-        coords: [10.109942, 124.899583],
-        imageUrl: "https://via.placeholder.com/240x120?text=Chooks+to+go",
-    },
-    {
-        id: "Laundry Shop",
-        title: "Laundry Shop",
-        category: "Commercial",
-        description:
-            "A commercial marker for a local laundry shop.",
-        coords: [10.109906, 124.899714],
-        imageUrl: "https://via.placeholder.com/240x120?text=Laundry+Shop",
-    },
-    {
         id: "Dayka's Store",
         title: "Dayka's Store",
         category: "Breadhouse",
         description:
             "A commercial marker for a local breadhouse.",
         coords: [10.109589, 124.899628],
-        imageUrl: "https://via.placeholder.com/240x120?text=Dayka%27s+Store",
+        imageUrl: "dayka.jpg",
     },
     {
         id: "Church",
@@ -337,44 +223,9 @@ const poiData = [
         description:
             "A religious marker near the central area.",
         coords: [10.109881, 124.899931],
-        imageUrl: "https://via.placeholder.com/240x120?text=Church",
+        imageUrl: "701171372_1455189076304946_1428732147356739898_n.jpg",
     },
-    {
-        id: "House29",
-        title: "House29",
-        category: "Residence",
-        description:
-            "A residential marker near in ichon.",
-        coords: [10.109586, 124.900000],
-        imageUrl: "https://via.placeholder.com/240x120?text=House29",
-    },
-    {
-        id: "House30",
-        title: "House30",
-        category: "Residence",
-        description:
-            "A residential marker near in ichon.",
-        coords: [10.109519, 124.900108],
-        imageUrl: "https://via.placeholder.com/240x120?text=House30",
-    },
-    {
-        id: "House31",
-        title: "House31",
-        category: "Residence",
-        description:
-            "A residential marker near in ichon.",
-        coords: [10.109422, 124.900200],
-        imageUrl: "https://via.placeholder.com/240x120?text=House31",
-    },
-    {
-        id: "House32",
-        title: "House32",
-        category: "Residence",
-        description:
-            "A residential marker near in ichon.",
-        coords: [10.109347, 124.900283],
-        imageUrl: "https://via.placeholder.com/240x120?text=House32",
-    },
+   
     {
         id: "Joy joy resto",
         title: "Joy joy resto",
@@ -382,7 +233,7 @@ const poiData = [
         description:
             "A restaurant marker near the northwestern part of Ichon.",
         coords: [10.109453, 124.899800],
-        imageUrl: "https://via.placeholder.com/240x120?text=Joy+joy+resto",
+        imageUrl: "joyjoy2.jpg",
     },
     {
         id: "Car repair shop",
@@ -446,90 +297,17 @@ const poiData = [
         description:
             "A residential marker near the far end of the village.",
         coords: [10.108228, 124.900878],
-        imageUrl: "https://via.placeholder.com/240x120?text=House38",
+        imageUrl: "bridge.jpg",
     },
     {
-        id: "House39",
-        title: "House39",
+        id: "Ichon Bridge",
+        title: "Bridge",
         category: "Residence",
         description:
             "A residential marker near the far end of the village.",
         coords: [10.108161, 124.900903],
-        imageUrl: "https://via.placeholder.com/240x120?text=House39",
+        imageUrl: "bridge.jpg",
     },
-    {
-        id: "House40",
-        title: "House40",
-        category: "Residence",
-        description:
-            "A residential marker in ichoon.",
-        coords: [10.108897, 124.900689],
-        imageUrl: "https://via.placeholder.com/240x120?text=House40",
-    },
-    {
-        id: "House42",
-        title: "House42",
-        category: "Residence",
-        description:
-            "A residential marker in ichoon.",
-        coords: [10.108825, 124.900786],
-        imageUrl: "https://via.placeholder.com/240x120?text=House42",
-    },
-    {
-        id: "House43",
-        title: "House43",
-        category: "Residence",
-        description:
-            "A residential marker in ichoon.",
-        coords: [10.108736, 124.900883],
-        imageUrl: "https://via.placeholder.com/240x120?text=House43",
-    },
-    {
-        id: "House44",
-        title: "House44",
-        category: "Residence",
-        description:
-            "A residential marker in ichoon.",
-        coords: [10.110550, 124.898911],
-        imageUrl: "https://via.placeholder.com/240x120?text=House44",
-    },
-     {
-        id: "House45",
-        title: "House45",
-        category: "Residence",
-        description:
-            "A residential marker in ichoon.",
-        coords: [10.110425, 124.899036],
-        imageUrl: "https://via.placeholder.com/240x120?text=House45",
-    },
-    {
-        id: "House46",
-        title: "House46",
-        category: "Residence",
-        description:
-            "A residential marker in ichoon.",
-        coords: [10.110325, 124.899139],
-        imageUrl: "https://via.placeholder.com/240x120?text=House46",
-    },
-    {
-        id: "Lebith's Grocery Store",
-        title: "Lebith's Grocery Store",
-        category: "Retail",
-        description:
-            "A local grocery store owned by Lebith.",
-        coords: [10.109086, 124.900611],
-        imageUrl: "https://via.placeholder.com/240x120?text=Lebith%27s+Grocery+Store",
-    },
-    {
-        id: "Mashita",
-        title: "Mashita",
-        category: "Grilled Chicken",
-        description:
-            "A local grilled chicken restaurant.",
-        coords: [10.108956, 124.900578],
-        imageUrl: "https://via.placeholder.com/240x120?text=Mashita",
-    },
-
     {
         id: "Gym",
         title: "Gym",
@@ -537,6 +315,6 @@ const poiData = [
         description:
             "A community gym located in the center of the village.",
         coords: [10.108028, 124.900942],
-        imageUrl: "https://via.placeholder.com/240x120?text=Gym",
+        imageUrl: "sessionhall-gym.jpg",
     },
 ];
